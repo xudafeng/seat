@@ -1,4 +1,10 @@
-test/
 coverage.html
 lib-cov/
 node_modules
+.travis.yml
+.drone.yml
+examples/
+Makefile
+.jshintrc
+.jshintignore
+coverage/

@@ -12,5 +12,19 @@
  *
  * ================================================================ */
 
-"use strict";
-module.exports = require('../lib/seat');
+'use strict';
+
+var program = require('commander');
+var seat = require('..');
+var pkg = require('../package.json');
+
+program
+  .option('-v, --versions', 'print put version infomation')
+  .parse(process.argv);
+
+if (program.versions) {
+  console.info('\n  ' + pkg.version + '\n');
+  process.exit(0);
+}
+
+seat();
