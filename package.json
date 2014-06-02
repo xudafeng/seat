@@ -1,6 +1,6 @@
 {
   "name": "seat",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "seat",
   "bin": {
     "seat": "./bin/seat"
@@ -11,7 +11,7 @@
     "url": "git://github.com/xudafeng/seat.git"
   },
   "dependencies": {
-    "dirutil": "*"
+    "dirutil": "0.0.6"
   },
   "keywords": [
     "npm",

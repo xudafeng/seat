@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "test",
+  "bin": {
+    "seat": "./bin/test"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xudafeng/test.git"
+  },
+  "dependencies": {
+  },
+  "keywords": [
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "homepage": "https://github.com/xudafeng/test",
+  "author": "xudafeng",
+  "email": "xudafeng[at]126.com",
+  "blog": "http://xdf.me",
+  "license": "MIT"
+}
