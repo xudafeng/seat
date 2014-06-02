@@ -1,7 +1,7 @@
-seat
+<#name#>
 ===
 
-project generator to help you take a seat.
+by xdf
 
 ## Installment
 
