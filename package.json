@@ -1,0 +1,25 @@
+{
+  "name": "seat",
+  "version": "0.0.2",
+  "description": "project generator.",
+  "bin": {
+    "seat": "./bin/seat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xudafeng/seat.git"
+  },
+  "dependencies": {
+    "dirutil": "*"
+  },
+  "keywords": [
+    "npm",
+    "project",
+    "generator"
+  ],
+  "homepage": "https://github.com/xudafeng/seat",
+  "author": "xudafeng",
+  "email": "xudafeng[at]126.com",
+  "blog": "http://xdf.me",
+  "license": "MIT"
+}
