@@ -1,10 +1,11 @@
 {
   "name": "seat",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "project generator.",
   "bin": {
     "seat": "./bin/seat"
   },
+  "main":"index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/xudafeng/seat.git"
