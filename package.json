@@ -11,12 +11,13 @@
     "url": "git://github.com/xudafeng/seat.git"
   },
   "dependencies": {
+    "dirutil": "*"
   },
   "keywords": [
+    "npm",
+    "project",
+    "generator"
   ],
-  "devDependencies": {
-    "mocha": "*"
-  },
   "homepage": "https://github.com/xudafeng/seat",
   "author": "xudafeng",
   "email": "xudafeng[at]126.com",
