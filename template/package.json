@@ -1,0 +1,25 @@
+{
+  "name": "<#name#>",
+  "version": "0.0.1",
+  "description": "<#name#>",
+  "bin": {
+    "seat": "./bin/<#name#>"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xudafeng/<#name#>.git"
+  },
+  "dependencies": {
+  },
+  "keywords": [
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "homepage": "https://github.com/xudafeng/<#name#>",
+  "author": "xudafeng",
+  "email": "xudafeng[at]126.com",
+  "blog": "http://xdf.me",
+  "license": "MIT"
+}
