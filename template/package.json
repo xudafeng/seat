@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "<#name#>",
   "bin": {
-    "seat": "./bin/<#name#>"
+    "<#name#>": "./bin/<#name#>"
   },
   "main": "index.js",
   "repository": {
