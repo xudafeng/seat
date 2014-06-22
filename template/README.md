@@ -6,7 +6,7 @@ by xdf
 ## Installment
 
 ```bash
-$ sudo npm install <#name#> -g
+$ npm i <#name#> -g
 ```
 
 ## Quick Start
