@@ -16,6 +16,9 @@
   "devDependencies": {
     "mocha": "*"
   },
+  "scripts": {
+    "test": "mocha"
+  },
   "homepage": "https://github.com/xudafeng/<#name#>",
   "author": "xudafeng",
   "email": "xudafeng[at]126.com",
