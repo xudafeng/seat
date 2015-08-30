@@ -14,6 +14,7 @@
   "dependencies": {
   },
   "devDependencies": {
+    "co-mocha": "*",
     "mocha": "*",
     "should": "*",
     "jshint": "*",

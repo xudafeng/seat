@@ -13,7 +13,8 @@
 
 'use strict';
 
-var <#=name#> = require('../');
+var <#=name#> = require('..');
 
-describe('test', function(){
+describe('test', function() {
+
 });
