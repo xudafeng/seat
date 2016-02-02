@@ -24,7 +24,6 @@ program
 
 if (program.versions) {
   console.info('\n  ' + pkg.version + '\n');
-  process.exit(0);
+} else {
+  seat();
 }
-
-seat();
