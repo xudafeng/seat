@@ -13,6 +13,4 @@
 
 'use strict';
 
-module.exports = function() {
-  require('./lib/seat');
-};
+module.exports = require('./lib/seat');

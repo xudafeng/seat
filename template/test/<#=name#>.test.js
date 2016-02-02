@@ -4,7 +4,7 @@
  * first created at : <#=time#>
  *
  * ================================================================
- * Copyright 2013 xdf
+ * Copyright <#year#> xdf
  *
  * Licensed under the MIT License
  * You may not use this file except in compliance with the License.

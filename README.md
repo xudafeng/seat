@@ -1,5 +1,4 @@
-seat
-===
+# seat
 
 project generator to help you take a seat.
 

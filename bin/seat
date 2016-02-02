@@ -14,8 +14,8 @@
 
 'use strict';
 
-var program = require('commander');
 var seat = require('..');
+var program = require('commander');
 var pkg = require('../package.json');
 
 program
