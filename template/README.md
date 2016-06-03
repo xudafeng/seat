@@ -1,5 +1,4 @@
-<#=name#>
-====
+# <#=name#>
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -22,14 +21,8 @@
 
 ## Installment
 
-```bash
-$ npm i <#=name#> -g
-```
-
-## Quick Start
-
-```bash
-$ <#=name#>
+```shell
+$ npm i <#=name#> --save-dev
 ```
 
 ## License
