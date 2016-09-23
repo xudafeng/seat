@@ -4,13 +4,13 @@ project generator to help you take a seat.
 
 ## Installment
 
-```bash
+```shell
 $ sudo npm install seat -g
 ```
 
 ## Quick Start
 
-```bash
+```shell
 $ seat xdf
 ```
 

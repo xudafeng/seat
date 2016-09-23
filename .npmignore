@@ -3,8 +3,7 @@ lib-cov/
 .DS_Store
 node_modules
 npm-debug.log
-*.swp
-*.swo
-.sw*
 .idea/*
 Thumbs.db
+*.sw*
+*.un~
