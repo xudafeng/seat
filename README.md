@@ -5,7 +5,7 @@ project generator to help you take a seat.
 ## Installment
 
 ```shell
-$ sudo npm install seat -g
+$ npm install seat -g
 ```
 
 ## Quick Start
