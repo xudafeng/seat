@@ -19,7 +19,7 @@
     "should": "*",
     "jshint": "*",
     "istanbul": "*",
-    "pre-commit": "1.1.1"
+    "pre-commit": "*"
   },
   "scripts": {
     "test": "make test",

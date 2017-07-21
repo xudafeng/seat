@@ -21,7 +21,7 @@
 
 ## Installment
 
-```shell
+``` bash
 $ npm i <#=name#> --save-dev
 ```
 
