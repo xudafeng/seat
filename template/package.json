@@ -15,9 +15,9 @@
   },
   "devDependencies": {
     "co-mocha": "*",
+    "eslint": "*",
     "mocha": "*",
     "should": "*",
-    "jshint": "*",
     "istanbul": "*",
     "pre-commit": "*"
   },
