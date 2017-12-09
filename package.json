@@ -17,22 +17,23 @@
     "xutil": "^1.0.7"
   },
   "devDependencies": {
+    "eslint": "*",
+    "eslint-plugin-mocha": "^4.11.0",
     "mocha": "*",
-    "should": "*",
-    "jshint": "*"
+    "pre-commit": "^1.2.2",
+    "should": "*"
   },
+  "pre-commit": [
+    "lint"
+  ],
   "keywords": [
     "npm",
     "project",
     "generator"
   ],
   "scripts": {
-    "test": "make test",
-    "jshint": "make jshint"
+    "test": "mocha",
+    "lint": "eslint . --fix"
   },
-  "homepage": "https://github.com/xudafeng/seat",
-  "author": "xudafeng",
-  "email": "xudafeng[at]126.com",
-  "blog": "http://xdf.me",
   "license": "MIT"
 }

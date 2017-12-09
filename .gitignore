@@ -5,5 +5,7 @@ npm-debug.log
 Thumbs.db
 coverage/
 .project
+*.gz
 *.sw*
 *.un~
+
