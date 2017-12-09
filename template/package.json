@@ -22,12 +22,11 @@
     "pre-commit": "*"
   },
   "scripts": {
-    "test": "make test",
-    "jshint": "make jshint"
+    "test": "mocha",
+    "lint": "eslint . --fix"
   },
   "pre-commit": [
-    "jshint"
+    "lint"
   ],
-  "homepage": "https://github.com/xudafeng/<#=name#>",
   "license": "MIT"
 }

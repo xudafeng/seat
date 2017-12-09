@@ -1,6 +1,6 @@
 {
   "name": "seat",
-  "version": "1.1.12",
+  "version": "2.0.0",
   "description": "seat",
   "bin": {
     "seat": "./bin/seat"
@@ -13,7 +13,8 @@
   "dependencies": {
     "commander": "~2.0.0",
     "dirutil": "0.0.7",
-    "microtemplate": "0.1.2"
+    "microtemplate": "0.1.2",
+    "xutil": "^1.0.7"
   },
   "devDependencies": {
     "mocha": "*",

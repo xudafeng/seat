@@ -1,22 +1,11 @@
 #!/usr/bin/env node
-/* ================================================================
- * seat by xdf(xudafeng[at]126.com)
- *
- * first created at : Mon Jun 02 2014 18:24:14 GMT+0800 (CST)
- *
- * ================================================================
- * Copyright 2013 xdf
- *
- * Licensed under the MIT License
- * You may not use this file except in compliance with the License.
- *
- * ================================================================ */
 
 'use strict';
 
 var seat = require('..');
 var program = require('commander');
-var pkg = require('../package.json');
+
+var pkg = require('../package');
 
 program
   .option('-v, --versions', 'print put version infomation')
