@@ -1,7 +1,10 @@
 'use strict';
 
-var <#=name#> = require('..');
+const assert = require('assert');
 
-describe('test', function() {
+const <#=name#> = require('..');
 
+describe('test', () => {
+  it('should be ok', () => {
+  });
 });

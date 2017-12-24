@@ -23,6 +23,7 @@
     "pre-commit": "*"
   },
   "scripts": {
+    "ci": "npm run lint && npm run test",
     "test": "mocha",
     "lint": "eslint . --fix"
   },
