@@ -1,6 +1,6 @@
 {
   "name": "seat",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "seat",
   "bin": {
     "seat": "./bin/seat"
@@ -20,8 +20,7 @@
     "eslint": "*",
     "eslint-plugin-mocha": "^4.11.0",
     "mocha": "*",
-    "pre-commit": "^1.2.2",
-    "should": "*"
+    "pre-commit": "^1.2.2"
   },
   "pre-commit": [
     "lint"

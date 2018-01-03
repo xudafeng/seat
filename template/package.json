@@ -18,13 +18,12 @@
     "eslint": "*",
     "eslint-plugin-mocha": "^4.11.0",
     "mocha": "*",
-    "should": "*",
     "istanbul": "*",
     "pre-commit": "*"
   },
   "scripts": {
     "ci": "npm run lint && npm run test",
-    "test": "mocha",
+    "test": "istanbul cover `npm bin`/_mocha",
     "lint": "eslint . --fix"
   },
   "pre-commit": [
