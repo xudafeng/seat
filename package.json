@@ -1,6 +1,6 @@
 {
   "name": "seat",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "seat",
   "bin": {
     "seat": "./bin/seat"

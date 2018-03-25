@@ -17,14 +17,16 @@
     "co-mocha": "*",
     "eslint": "*",
     "eslint-plugin-mocha": "^4.11.0",
+    "git-contributor": "*",
     "mocha": "*",
-    "istanbul": "*",
+    "nyc": "*",
     "pre-commit": "*"
   },
   "scripts": {
     "ci": "npm run lint && npm run test",
-    "test": "istanbul cover `npm bin`/_mocha",
-    "lint": "eslint . --fix"
+    "test": "nyc --reporter=lcov --reporter=text mocha",
+    "lint": "eslint . --fix",
+    "contributor": "git-contributor"
   },
   "pre-commit": [
     "lint"
