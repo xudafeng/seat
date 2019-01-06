@@ -2,7 +2,7 @@ node_modules
 .travis.yml
 .eslintrc
 .eslintignore
-coverage/
+.nyc_output
 *.gz
 *.sw*
 *.un~

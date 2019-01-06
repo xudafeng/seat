@@ -28,5 +28,3 @@ $ npm i <#=name#> --save-dev
 ## License
 
 The MIT License (MIT)
-
-Copyright (c) 2015 xdf
