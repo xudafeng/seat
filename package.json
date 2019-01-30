@@ -1,6 +1,6 @@
 {
   "name": "seat",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "seat",
   "bin": {
     "seat": "./bin/seat"
@@ -19,12 +19,14 @@
   "devDependencies": {
     "eslint": "*",
     "eslint-plugin-mocha": "^4.11.0",
-    "mocha": "*",
-    "pre-commit": "^1.2.2"
+    "husky": "*",
+    "mocha": "*"
   },
-  "pre-commit": [
-    "lint"
-  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint"
+    }
+  },
   "keywords": [
     "npm",
     "project",
