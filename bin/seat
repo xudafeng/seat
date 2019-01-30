@@ -9,10 +9,14 @@ var pkg = require('../package');
 
 program
   .option('-v, --versions', 'print put version infomation')
+  .option('-o, --owner [owner]', 'set the owner of package')
   .parse(process.argv);
 
 if (program.versions) {
   console.info('\n  ' + pkg.version + '\n');
 } else {
-  seat();
+  seat({
+  	owner: program.owner || 'xudafeng',
+  	name: program.args[0],
+  });
 }

@@ -9,7 +9,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/xudafeng/<#=name#>.git"
+    "url": "git://github.com/<#=owner#>/<#=name#>.git"
   },
   "dependencies": {
   },

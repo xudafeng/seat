@@ -1,6 +1,6 @@
 {
   "name": "seat",
-  "version": "2.0.7",
+  "version": "2.0.8",
   "description": "seat",
   "bin": {
     "seat": "./bin/seat"
@@ -19,6 +19,7 @@
   "devDependencies": {
     "eslint": "*",
     "eslint-plugin-mocha": "^4.11.0",
+    "git-contributor": "^1.0.10",
     "husky": "*",
     "mocha": "*"
   },
@@ -34,7 +35,8 @@
   ],
   "scripts": {
     "test": "mocha",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "contributor": "git-contributor"
   },
   "license": "MIT"
 }
