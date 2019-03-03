@@ -14,7 +14,6 @@
   "dependencies": {
   },
   "devDependencies": {
-    "co-mocha": "*",
     "eslint": "*",
     "eslint-plugin-mocha": "^4.11.0",
     "git-contributor": "*",
