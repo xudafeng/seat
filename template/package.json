@@ -4,7 +4,7 @@
   "description": "<#=name#>",
   "keywords": ["<#=name#>"],
   "bin": {
-    "<#=name#>": "./bin/<#=name#>"
+    "<#=name#>": "./bin/<#=name#>.js"
   },
   "main": "index.js",
   "repository": {

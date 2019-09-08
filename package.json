@@ -1,9 +1,9 @@
 {
   "name": "seat",
-  "version": "2.0.8",
+  "version": "2.0.9",
   "description": "seat",
   "bin": {
-    "seat": "./bin/seat"
+    "seat": "./bin/seat.js"
   },
   "main": "index.js",
   "repository": {
