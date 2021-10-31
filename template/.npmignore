@@ -1,8 +1,0 @@
-node_modules
-.travis.yml
-.eslintrc
-.eslintignore
-.nyc_output
-*.gz
-*.sw*
-*.un~

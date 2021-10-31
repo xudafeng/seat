@@ -1,5 +1,7 @@
 # seat
 
+---
+
 project generator to help you take a seat.
 
 <!-- GITCONTRIBUTOR_START -->

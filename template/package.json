@@ -6,6 +6,10 @@
   "bin": {
     "<#=name#>": "./bin/<#=name#>.js"
   },
+  "files": [
+    "bin/**/*.js",
+    "lib/**/*.js"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -16,7 +20,7 @@
   "devDependencies": {
     "eslint": "*",
     "eslint-plugin-mocha": "^4.11.0",
-    "git-contributor": "*",
+    "git-contributor": "1",
     "husky": "*",
     "mocha": "*",
     "nyc": "*"
